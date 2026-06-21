@@ -1,0 +1,10 @@
+^\.git$
+^\.github$
+^\.Rproj\.user$
+^.*\.Rproj$
+^README\.Rmd$
+^\.gitignore$
+^\.Rbuildignore$
+^.*\.zip$
+^.*\.tar\.gz$
+

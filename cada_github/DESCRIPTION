@@ -1,0 +1,23 @@
+Package: cada
+Title: CADA Hypothesis Comparison for Between-Subject Data
+Version: 0.1.5
+Authors@R: c(
+    person("Immanuel", "Stark", role = c("aut", "cre"), email = "immanuel.stark@s2023.tu-chemnitz.de"),
+    person("Codex", role = "ctb", comment = "mit freundlicher Unterstützung")
+    )
+Author: Immanuel Stark mit freundlicher Unterstützung von Codex
+Maintainer: Immanuel Stark <immanuel.stark@s2023.tu-chemnitz.de>
+Description: Provides one unified interface for comparing two competing
+    hypothesized mean patterns in between-subject designs.
+    The package supports bootstrap null distributions, normal approximations
+    based on variance formulas, and a standardized CADA effect size for
+    squared deviations.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    graphics,
+    stats,
+    utils
+NeedsCompilation: no
